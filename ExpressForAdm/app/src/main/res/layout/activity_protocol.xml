@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/title_back" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left"
+                android:autoText="true"
+                android:text="甲方：xxx物流有限公司 (以下简称甲方)   \n　乙方： (以下简称乙方)  　\n　为明确甲乙双方的权利和义务，根据《中华人民共和国合同法》及相关规定，经甲乙双方友好协商，就甲方为乙方提供国内快递运输服务及相关费用结算事宜，达成如下协议：  \n　　一、本协议是甲方根据乙方的月业务总量、信誉度等决定给乙方的一种运费集中结算的书面协议。  \n　　二、甲方决定给予乙方账期不超过30天的优惠，提供月结卡，月结卡编号为： 。  \n　　三、双方的责任和义务  \n　　1、乙方同意由甲方为其提供国内快递运输服务，和按本协议规定支付给甲方相关费用。乙方在使用甲方服务时，须使用甲方所提供的专属快递账号，对其负保密责任，对该帐号下发生的全部费用向乙方承担付款责任。  \n　　2、乙方在使用甲方快递服务时，须正确、认真、如实填写甲方快递运单，在必要时，应向甲方提供与货物运送有关的资料和文件。 \n 　　3、乙方应遵守国家对于禁运品的有关规定，并保证所交付的物品或物品中所夹带的物件不属于国家法律、法规、规章规定的禁止或限制运输物及其他危害运输安全的物品，如实申报货物品名等。如因乙方违反本规定而造成的全部损失由乙方承担。  　　4、发件人采用由收件人或第三方付费时，乙方应承担因收件人或第三方拒绝付费时支付该运费及其他费用的责任。  　　5、甲方在承诺时间内必须送达乙方快件，甲乙双方收发件人口头约定亦有效。  　　6、甲乙双方必须互为对方保守商业秘密。  　　7、双方之权利义务适用甲方国内运单背面所载条款以及相关法律、法规的规定。因乙方责任而造成货物损失的，乙方需按甲方国内运单规定负赔偿责任。  　　四、费用与结算  　　1、运价按照甲乙双方约定执行。在本协议书有效期内，甲方保留因特殊情况(如部分地区不能到达转ems)而调整价格的权利，但必须事前与乙方进行沟通，在征得乙方同意之后，方可改发其他方式。  　　2、约定快递费用：省内 元/1公斤以下，省外(国内) 元/1公斤以下，超过1公斤按每公斤 元收取。  　　3、如乙方要为所发货物保值时，需同时在甲方提供运单中的“保值事项”一栏中勾中“保值”项，并注明保值金额，即乙方货物的据实声明价值。若快件在甲方运输过程中丢失，则甲方需按照乙方保值金额进行赔偿。  　　4、乙方可以选择方式付费：  　　□ 寄件人付费(□现付/□月结) □ 收件人付费  　　5、甲乙双方以乙方提供的费用月结对账单做为每月双方对账依据，甲乙双方应妥善保管每次服务时提供的运单联作为对帐依据。  　　6、结算时间：运费采用月结方式的，甲方于每月5日前，把上月账单递交乙方。乙方在收到后5个工作日内进行核对，并书面或电话回复甲方，否则甲方视为乙方已确认无误。核对无疑后，甲方带发票交付乙方，乙方在账单报销出来后通知甲方人员进行结算。  　　7、结算方式：(请根据本公司情况选择合适的付款方式前打“√”)  　　(1)现金支付：我司将派专人并持盖公章《委托收款函》原件前来贵公司收款。 \n 　　(2)现金存款或网上支付：付款后请保留银行水单，复印件交我司业务员或传真我司销账。 \n 　　(3)支票或电汇：请按一下资料填写收款人和收款账号。"
+                android:padding="10dip" />
+
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right" />
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+<include layout="@layout/title_back"></include>
+
+
+    <com.rengwuxian.materialedittext.MaterialAutoCompleteTextView
+        android:layout_margin="10dp"
+        android:id="@+id/button_getexpress_nub"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:hint="验证码"
+        android:singleLine="true"
+        android:numeric="integer"
+        android:textCursorDrawable="@drawable/text_cursor_cyan"
+        app:met_baseColor="@android:color/black"
+        app:met_floatingLabel="highlight"
+        app:met_maxCharacters="6"
+        app:met_primaryColor="?colorAccent" />
+
+    <Button
+        android:id="@+id/btn_verification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="验证码取件"
+       />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="二维码扫描"
+        android:id="@+id/button_erweimaqujian" />
+
+
+</LinearLayout>
